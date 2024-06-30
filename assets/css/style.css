@@ -1,0 +1,163 @@
+.menu ul,
+li {
+  padding-inline-start: 0%;
+  list-style-type: none;
+}
+
+.menu .nav-link {
+  padding: 5px;
+  border-bottom: solid 2px black;
+}
+
+.menu :is(.nav-link a, .nav-link) {
+  transition: all 0.3s;
+}
+
+.menu .nav-link:hover {
+  border-color: white;
+}
+
+.menu .nav-link.active {
+  border-color: white;
+}
+
+.menu .nav-link.active a {
+  color: white;
+}
+.menu .nav-link:hover a {
+  color: white;
+}
+
+.header #header-contacts {
+  background-color: rgb(240, 240, 236);
+  width: 100%;
+}
+
+.main .about-header {
+  background-color: rgb(250, 241, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: ridge 4px;
+  border-color: rgb(99, 47, 30);
+}
+
+.main .header-office {
+  background-color: #ffffff;
+  border-bottom: rgb(250, 241, 221);
+}
+
+.content {
+  background-color: rgb(234, 172, 142);
+  min-height: 300px;
+  padding: 20px;
+}
+
+.content-office {
+  background-color: rgb(234, 172, 142);
+  font-size: 15px;
+  min-height: 300px;
+  padding: 20px;
+}
+
+.content #contact-link {
+  display: block;
+  padding: 5px;
+  width: 100%;
+}
+.content h1 {
+  padding: 0 0 0 6px;
+}
+
+.email-content {
+  font-weight: bold;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: none;
+}
+
+#form-content {
+  max-width: 650px;
+  padding: 10px 20px;
+  background-color: beige;
+}
+
+.form-button {
+  background-color: bisque;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.form-button:hover {
+  background-color: rgb(97, 76, 51);
+  color: white;
+}
+
+.content #maps-form {
+  border: solid 1px black;
+  margin: 20px;
+}
+.services li {
+  list-style-type: disc;
+}
+
+.table-content table {
+  border-collapse: collapse;
+  color: black;
+  border: solid 1px;
+}
+
+.table-content table td {
+  color: black;
+  border: solid 1px;
+  padding: 2px;
+  background-color: rgb(234, 172, 142);
+  text-align: justify;
+}
+
+.table-content table th {
+  color: black;
+  border: solid 1px;
+  padding: 2px;
+}
+
+.table-content table #price {
+  text-align: right;
+}
+
+#contact {
+  padding: 0;
+}
+
+#contact .social {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 8px;
+  gap: 10px;
+}
+.footer #contact {
+  padding: 30px 20px;
+}
+
+.footer #icon-header-about {
+  align-items: center;
+}
+
+a:-webkit-any(:link) {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
